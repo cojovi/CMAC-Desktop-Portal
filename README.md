@@ -1,16 +1,16 @@
 <img src="https://i.imgur.com/mwN2zlk.png" alt="Hexo logo" width="300" height="300" align="right" />
 
-# stargazerproject.xyz
+# tech.cmacroofing.com
 
-> A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org).
+> A fast, simple & powerful framework Developer, cojovi, powered by [Node.js](https://nodejs.org).
 
 [Website](https://stargazerproject.xyz) |
 
 ## Features
 
-- conspiracy theory with no judgement
-- programming hacks
-- Pen Testing
+- Simple Dashboard
+- Ease of use
+- Still in development
 
 ## Quick Start
 
