@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMAC Roofing Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .box {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to CMAC Roofing</h1>
+    <div class="grid-container">
+        <div class="box" onclick="window.open('https://docs.google.com/document/d/1pcdmP83CUUaOtzVzyeeVH1eFV0GMQEpl/edit?usp=sharing&ouid=115079516805674909565&rtpof=true&sd=true')">
+            Employee Handbook
+        </div>
+        <div class="box" onclick="window.open('https://docs.google.com/document/d/1-29v8u48h2FjxGoxZpqeYSsKB8BRAABr/edit?usp=sharing&ouid=115079516805674909565&rtpof=true&sd=true')">
+            Builder Master Detail
+        </div>
+        <div class="box" onclick="alert('Safety Manual link not provided')">
+            Safety Manual
+        </div>
+        <div class="box" onclick="alert('All Processes link not provided')">
+            All Processes
+        </div>
+    </div>
+</body>
+</html> 
